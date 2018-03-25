@@ -1,5 +1,10 @@
 # Assignment 4 - Chicago 
 
+Github: https://github.com/SidhantAl/Assignment4-Chicago/
+Website: http://www.urcsc174.org/assignment04/Chicago/
+
+
+
 #### Team 
 
 Sidhant Ahluwalia - Information Architect 
@@ -14,11 +19,11 @@ Louis Fusilli - Coder
 
 ##### Ontology
 
-All 4 students are attending the University of Rochester and currently taking Advanced Front-End Development. 
+All 4 students are attending the University of Rochester, all are dual majors and are currently taking Advanced Front-End Development. 
 
 ##### Difference
 
-One student is a girl and is not dual majoring, her only major is … 
+One student is a girl, her majors are CS and Business  
 
 The student who is different will have a separate color scheme to the page, with more emphasis on the differences. The tab for this student will also be colored differently to strike a difference between the other students.
 
