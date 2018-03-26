@@ -58,12 +58,13 @@ P and regular content tags should be a thin font with adequate spacing in a dark
 
 There will be a left aligned header on the form saying "Tell us about yourself", the input elements will follow below the header with adequate spacing between themselves.  
 
-The form will contain 4 elements 
+The form will contain 5 elements 
 
 - Name (text input)
 - Major 1 (text input)
 - Major 2 (text input) - the user can put N/A if not applicable
 - Class year (numeric input)
+- Gender - Male/Female (radio button)
 
 A submit button to add details to the database and present a table with all the content of the form to the user.
 
