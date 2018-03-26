@@ -35,13 +35,13 @@ The student who is different will have a separate color scheme to the page, with
 The description of the students follows general information (summary), Academic experience and Work experience. The tabs on the navigation bar are last names of the students in ascending order apart from the home page.
 
 
-
 #### Layout
 
 The general information will contain in a section tag and will be center aligned below a picture on top of the article and aside tags. 
 
-The individual pages will contain an aside and an article tag, the aside tag will contain the Work Experience and will be positioned to the right of the page. While the article tag will be on the left-hand side of the page, containing the Academic Experience. 
+The home page will contain center aligned pictures of the 4 students with a brief 2 sentence description of their background. In addition to this, the home page will contain information about the website and inform users about the form.
 
+The individual pages will contain an aside and an article tag, the aside tag will contain the Work Experience and will be positioned to the right of the page. While the article tag will be on the left-hand side of the page, containing the Academic Experience. 
 
 
 #### Typefaces and Fonts 
@@ -68,7 +68,6 @@ The form will contain 4 elements
 A submit button to add details to the database and present a table with all the content of the form to the user.
 
 The table will contain 5 columns (number, name, major1, major2 and class year) and the rows will depend on the number of submissions on the form.
-
 
 
 #### Next Steps 
