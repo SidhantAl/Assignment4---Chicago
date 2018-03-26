@@ -52,7 +52,7 @@ H2 tags are to be used for subtitles and should be in italics for a more subtle 
 
 P and regular content tags should be a thin font with adequate spacing in a dark color to be easy to read. 
 
-
+*Background color changes to a light shade or white, depending on the designers preference*
 
 #### Form
 
@@ -70,6 +70,12 @@ A submit button to add details to the database and present a table with all the 
 The table will contain 5 columns (number, name, major1, major2 and class year) and the rows will depend on the number of submissions on the form.
 
 
+
+#### Next Steps 
+
+- Designer will select a font and implement the design of the webpages with help from the coder. 
+- Coder will set up the database and the form with help from the AI and Designer
+- AI will check to see that the website follows the desired outlook, coordinating with the Designer and Coder 
 
 
 
