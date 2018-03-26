@@ -26,7 +26,7 @@ All 4 students are attending the University of Rochester, all are dual majors an
 
 ##### Difference
 
-One student is a girl, her majors are CS and Business  
+One student is a girl, her majors are CS and Psychology  
 
 The student who is different will have a separate color scheme to the page, with more emphasis on the differences. The tab for this student will also be colored differently to strike a difference between the other students.
 
