@@ -6,7 +6,7 @@ Website: http://www.urcsc174.org/assignment04/Chicago/
 
 Database: urcscon3_chicag
 
-// Design inspired from https://www.ybrikman.com/
+*Design inspired from https://www.ybrikman.com/*
 
 #### Team 
 
