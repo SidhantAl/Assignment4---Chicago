@@ -12,7 +12,7 @@ Database: urcscon3_chicag
 
 Sidhant Ahluwalia - Information Architect 
 
-Lotus May - Designer
+Hnin Oo Wai - Designer
 
 Louis Fusilli - Coder 
 
@@ -63,7 +63,7 @@ The form will contain 4 elements
 - Name (text input)
 - Major 1 (text input)
 - Major 2 (text input) - the user can put N/A if not applicable
-- Class year (numeric input
+- Class year (numeric input)
 
 A submit button to add details to the database and present a table with all the content of the form to the user.
 
