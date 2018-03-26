@@ -68,7 +68,7 @@ The form will contain 5 elements
 
 A submit button to add details to the database and present a table with all the content of the form to the user.
 
-The table will contain 5 columns (number, name, major1, major2 and class year) and the rows will depend on the number of submissions on the form.
+The table will contain 6 columns (number, name, major1, major2, class year and gender) and the rows will depend on the number of submissions on the form.
 
 
 #### Next Steps 
