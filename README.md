@@ -12,7 +12,7 @@ Database: urcscon3_chicag
 
 Sidhant Ahluwalia - Information Architect 
 
-Lotus May - Designer
+May @ Hnin Oo Wai - Designer
 
 Louis Fusilli - Coder 
 
