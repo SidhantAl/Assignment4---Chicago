@@ -1,19 +1,19 @@
 <?php
 	// 1. Create a database connection
-$dbhost = "localhost";
-$dbuser = "friends";
-$dbpass = "coffee";
-$dbname = "friends";
+$dbhost = "66.147.242.186";
+$dbuser = "urcscon3_chicag";
+$dbpass = "coffee1N/!";
+$dbname = "urcscon3_chicag";
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-$name = Trim(stripcslashes($_POST['Name']));
-$major1 = Trim(stripcslashes($_POST['Major1']));
-$major2 = Trim(stripcslashes($_POST['Major2']));
-$class = Trim(stripcslashes($_POST['Class']));
-$gender = Trim(stripcslashes($_POST['Gender']));
+$name = Trim(stripcslashes($_POST['name']));
+$major1 = Trim(stripcslashes($_POST['major1']));
+$major2 = Trim(stripcslashes($_POST['major2']));
+$class = Trim(stripcslashes($_POST['class']));
+$gender = Trim(stripcslashes($_POST['gender']));
 
 
-$query = "INSERT INTO friends (Name, Major1, Major2, Class, Gender) VALUES ('$name','$major1','$major2','$class','$gender')";
+$query = "INSERT INTO myTable (name, major1, major2, class, gender) VALUES ('$name','$major1','$major2','$class','$gender')";
 $result = mysqli_query($connection, $query);
 
 ?>
