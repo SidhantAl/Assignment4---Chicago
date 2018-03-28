@@ -28,6 +28,22 @@
 
       <p>There are many amazing students at the University of Rochester who are planning to graduate with two Majors. Here you can find profiles on three such students, each majoring in Computer Science and one other subject.</p>
 
+      <div class="form">
+        <form action="welcome.php" method="post">
+        Name:<br>
+        <input type="text" name="name" value="Name"><br>
+        Major 1:<br>
+        <input type="text" name="major1" value="Major1"><br>
+        Major 2:<br>
+        <input type="text" name="major2" value="Major2"><br>
+        Class year:<br>
+        <input type="text" name="class" value="Class"><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="radio" name="gender" value="Other"> Other<br><br>
+        <input type="submit"  onclick="alert('Thank you!')" value="Submit">
+      </div><!--form class-->
 
     </div>
 
