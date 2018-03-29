@@ -7,7 +7,7 @@
     <?php include 'includes/menu.php';?>
 
     <!--hero class-->
-    <div id="hero">
+    <div id="hero" class="girl">
 
         <!--Please put the profile pic here instead of the uofr logo -->
 

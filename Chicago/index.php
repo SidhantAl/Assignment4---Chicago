@@ -7,7 +7,7 @@
 
 
 
-        <div id="hero">
+        <div id="hero" class="home">
 
             <figure>
                 <img src="images/uor-logo.png" alt="Bei Lu">
@@ -40,10 +40,10 @@
         <div class="form">
             <form action="welcome.php" method="post">
                 Name:<br>
-                <input type="text" name="name" value="Name"><br> Major 1:<br>
-                <input type="text" name="major1" value="Major1"><br> Major 2:<br>
-                <input type="text" name="major2" value="Major2"><br> Class year:<br>
-                <input type="text" name="class" value="Class"><br> Gender:
+                <input type="text" name="name" value="Name"><br><br> Major 1:<br>
+                <input type="text" name="major1" value="Major1"><br><br> Major 2:<br>
+                <input type="text" name="major2" value="Major2"><br><br> Class year:<br>
+                <input type="text" name="class" value="Class"><br><br> Gender: 
                 <br>
                 <input type="radio" name="gender" value="Male"> Male<br>
                 <input type="radio" name="gender" value="Female"> Female<br>

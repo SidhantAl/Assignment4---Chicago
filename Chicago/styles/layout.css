@@ -2,28 +2,48 @@
    Top area
    ========================================================================== */
 
-
-#hero{
+#hero {
     text-align: center;
-    margin-top: 4%;
-    padding: 2%;
-    background-color: antiquewhite;
+    margin-top: 2%;
+    padding: 4%;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: rgba(0,0,0,.125);
+    border-bottom-color: rgba(0, 0, 0, .125);
+}
+
+.girl {
+
+    background-image: url(../images/girl_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boy {
+    padding-top: 10px;
+    background-image: url(../images/boy_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.home {
+    background-image: url(../images/rr2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: floralwhite;
 }
 
 /* =============================================================================
    Middle
    ========================================================================== */
 
-
 .container {
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    
+
 }
 
 
@@ -31,7 +51,7 @@
    Bottom
    ========================================================================== */
 
-footer{
+footer {
     height: 20px;
     padding-top: 10px !important;
     padding-bottom: 20px;
@@ -39,8 +59,8 @@ footer{
     width: 100%;
     margin-bottom: 10px;
     color: #aaa;
-    vertical-align:middle;
+    vertical-align: middle;
     border-top-style: solid;
     border-top-width: 1px;
-    border-top-color: rgba(0,0,0,.125);
+    border-top-color: rgba(0, 0, 0, .125);
 }

@@ -7,7 +7,7 @@
 
 
     <!--hero class-->
-    <div id="hero">
+    <div id="hero" class="girl">
 
         <!--Please put the profile pic here instead of the uofr logo -->
 
@@ -21,7 +21,7 @@
     </div>
 
 
-    <div class="container" id="BeiLu">
+    <div class="container" >
 
         <div class="row">
             <section class="general">

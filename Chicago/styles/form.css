@@ -1,0 +1,28 @@
+.form {
+    display: inline-block;
+    width: 100%;
+}
+
+form {
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightblue;
+    padding: 10%;
+    font-weight: 700;
+}
+
+input {
+    margin: 10px 0;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+input[type=submit]:hover {
+    border-radius: 5px;
+}
