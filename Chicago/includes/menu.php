@@ -1,13 +1,17 @@
-<link rel="stylesheet" href="styles/styles.css">
+<!--Nav bar using bootstrap-->
 
-<nav class="menu">
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="student1.php">Bei Lu</a></li>
-        <li><a href="student2.php">Conley Ernst</a></li>
-        <li><a href="student3.php">Jovan Lee</a></li>
-        <li><a href="student4.php">Alexander Punj</a></li>
-    </ul>
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+
+        <div class="left">
+            <a class="button button-transparent nav-buttoncaps" href="index.php">Team Chicago</a>
+        </div>
+
+
+        <a class="nav-item nav-link active" href="student1.php">Bei Lu <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="student2.php">Conley Ernst</a>
+        <a class="nav-item nav-link" href="student3.php">May Shin Lyan</a>
+        <a class="nav-item nav-link" href="student4.php">Alexander Punj</a>
+
+    </div>
 </nav>
-
-<!--Design: Let's have the navigation in the top-right. Also, the usual stylings for menu: no underlines for hypertext, make them clickable boxes instead of clickable text, let's have the menu be arranged vertically instead of horizontally, to make sure all of the names fit at smaller screen sizes.-->
