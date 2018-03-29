@@ -1,128 +1,112 @@
+/***** navbar ******/
 
+.navbar {
 
-/**     font-family: 'Roboto'
-Cutive+Mono
-
-Roboto Slab(headers) and Cutive Mono(p),
-*/
-body,.container{
-
-    margin: 0 auto;
-    width: 95%;
-    max-width: 1000px;
-
-    background-color:#343A40;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    border-bottom-color: rgba(0, 0, 0, .125) !important;
 }
 
-
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Roboto'!important;
-
+#mynavbar a {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: .75rem;
 }
 
-h1,h2,h3,h4,h5,h6,p,footer,a{
-    color:#f2f2f2;
-    font-weight: 300;
-    
-}
-
-footer{
-    text-align: center;
-    font-weight:100;
-}
-p{
-    font-weight: 200!important;    
-    
-    font-family: 'Roboto Slab'!important;
-    
-}
-
-.img-circle {
-    height:250px;
-    width:250px;
-    border-radius:50%;
-    border-width: 1px; 
-    text-align: center;
-}
-
-.minipic2{
-    height:300px;
-    width:300px;
-    float:left;
-    border-width: 1px;   
-    margin-right: 10px;
-    
-}
-
-section{
-    float: right;
-    
-}
-/* navar color
-.bg-dark {
-    background-color: #f2f2f2!important;
-
-}
-.nav-link{
-    color:#333!important;
-    font-family: 'Roboto Slab'!important;
-
-}*/
-section{
-    display:block;
-}
-
-.whoarewe{
-    text-align: center;
-}
-/*a:hover{
-    color:none;
-    text-decoration:none;
-}*/
-.mySlides {
-    width: 375px;
-    height: 375px;
-}
-
-
-/* nav bar */
-.menu {
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 0;
-    margin-bottom: 10px;
-    margin-right: 0;
-}
-.menu ul {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
-}
-.menu li {
-    display: inline-block;
-}
-.menu a {
-    color: white;
-    display: block;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    border: solid;
-    border-width: 1px;
-    border-color: #333333;
+.left a {
+    font-size: 20px !important;
+    font-weight: 800;
     text-decoration: none;
-}
-.menu a:hover {
-    background-color: black;
-    color: #b2cecf;
-}
-.current {
-    background-color: black;
-    color: white;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 1.125rem;
+    padding: .5rem 1rem;
+    padding-right: 450px;
+    margin: 0;
+    height: auto;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    -webkit-appearance: none;
 }
 
-.is-current {
-    background-color: black;
-    color: white;
+
+/***** body ******/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #2e2e2e;
+    letter-spacing: .01rem;
+    line-height: 1.75rem;
+}
+
+#BeiLu {
+    /*    position: absolute;*/
+}
+
+/*
+#BeiLu::after {
+    content: "";
+    background-image: url(http://mojmalnews.com/wp-content/uploads/2017/08/nature-wallpaper-cover-page-pink-8-wallpaper-pink-tag-page-flowers-plants-nature-image-hd-d-on-cover-images-of-androids-orchids-pictures.jpg);
+    opacity: 0.5;
+
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+*/
+
+h1 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 4em !important;
+
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    color: #2e2e2e;
+    letter-spacing: .01rem;
+    line-height: 1.75rem;
+}
+
+
+
+/***** figures ******/
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+
+
+/***** footer ******/
+
+footer {
+
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    color: #2e2e2e;
+    letter-spacing: .01rem;
+    line-height: 1.75rem;
+    font-size: 12px;
 }
