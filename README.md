@@ -12,11 +12,12 @@ Database: urcscon3_chicag
 
 Sidhant Ahluwalia - Information Architect 
 
-Hnin Oo Wai - Designer
+Hnin Oo Wai @ May - Designer
 
 Louis Fusilli - Coder 
 
 
+## IA 
 
 #### Content
 
@@ -76,6 +77,35 @@ The table will contain 6 columns (number, name, major1, major2, class year and g
 - Designer will select a font and implement the design of the webpages with help from the coder. 
 - Coder will set up the database and the form with help from the AI and Designer
 - AI will check to see that the website follows the desired outlook, coordinating with the Designer and Coder 
+
+## Designer
+
+1) Based on the instructions of IA, the main theme of the website is to showcase the difference between three girls and one boy. To emphsis this gender difference, the following design decisions are made:
+
+  - the hero background images and the hover and active nav items for the girls are chosen as light pink color where as blue is chosen       for the boy.
+  - the flower pattern in the hero background represents the girl and the gaming icon represent the male stereotypes of gamers.
+
+2) C.R.A.P principles usage:
+
+  - Contrast: text color is changed to white to make it stood out when hovered; the seconding level headings are styled into italic to make it stood out from the paragraph; the same reasoning applies to making the name h1 super bold to have a strong appearance and the nav bar fonts are all capitalized to catch the reader's eyes in the first place. 
+  - Repetition: white background is used repeatedly as a theme in the nav bar and the background color of the main body text to tie the elements together in clear unity; the same pink color theme is used in the same way for all three girls to identity them as one group.
+  - Alignment: The name and majors are centered in the upper-middle of the view port to draw reader's attention in the first place. Following this is the general information that span across the page and then the academic experience and work experience that breaks the monotony of the page by putting it side to side. 
+  - Proximity: putting the general information, academic and work experience together in one container ties them together as a group giving more information of the student. The same applies for nav bar having items next to each other so that user can easily navigate across the pages. 
+
+3) Typeface and fontchoices:
+
+  - Open Sans is used for H1 and H2 as the kerning between the font improves the readablity of the text and makes the user grasps the information easily. 
+  - H1 is bolded to 800 to catch the reader's first attention by leaving strong expression and H2 is styled into italic to make it stood out from the paragraph.
+  - Merriweather is used for the 'p' as the serif in the font enables the reader to glide easily across the words without much confusion. This is further supported by increasing the line-height and letter-spacing. 
+  
+ 4) Layout Implementation:
+ 
+ - Bootstrap framework is used to style the layout. 
+ - The nav bar is position fixed at the top of the page and footer has its own position at the bottom of the page.
+ - Following the nav bar is the hero class that acts as the main eye-catcher.
+ - The main body text of general information and the work and academic experience are put into two separate rows. The latter row contains two columns divided half/half across the page using the bootstrap col-sm-6 properties. 
+ 
+ 
 
 
 
