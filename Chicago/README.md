@@ -18,9 +18,9 @@ All 4 students are attending the University of Rochester and currently taking Ad
 
 ##### Difference
 
-One student is a girl and is not dual majoring, her only major is … 
+One student is a guy, as opposed to the other 3 girls
 
-The student who is different will have a separate color scheme to the page, with more emphasis on the differences. The tab for this student will also be colored differently to strike a difference between the other students.
+The student who is of different gender will have a different color scheme on the page, with more emphasis on the differences. The tab for this student will also be colored differently to strike a difference between the other students.
 
 ##### Choreography
 
@@ -50,16 +50,17 @@ P and regular content tags should be a thin font with adequate spacing in a dark
 
 There will be a left aligned header on the form saying "Tell us about yourself", the input elements will follow below the header with adequate spacing between themselves.  
 
-The form will contain 4 elements 
+The form will contain 5 elements 
 
 - Name (text input)
 - Major 1 (text input)
 - Major 2 (text input) - the user can put N/A if not applicable
-- Class year (numeric input
+- Class year (numeric input)
+- Gender
 
 A submit button to add details to the database and present a table with all the content of the form to the user.
 
-The table will contain 5 columns (number, name, major1, major2 and class year) and the rows will depend on the number of submissions on the form.
+The table will contain 6 columns (number, name, major1, major2, class year and gender) and the rows will depend on the number of submissions on the form.
 
 
 
