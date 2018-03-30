@@ -1,5 +1,3 @@
-<body>
-
     <?php include 'includes/html-top.php';?>
 
     <!-- Navbar -->
@@ -16,7 +14,7 @@
         </figure>
 
         <h1>Bei Lu</h1>
-        <h3>Computer Science & Psychology</h3>
+        <h3>Computer Science &amp; Psychology</h3>
 
     </div>
 

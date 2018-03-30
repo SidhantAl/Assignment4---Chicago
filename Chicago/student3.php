@@ -1,4 +1,3 @@
-<body>
     <?php include 'includes/html-top.php';?>
 
     <!-- Navbar -->
@@ -14,7 +13,7 @@
         </figure>
 
         <h1>Jovan Gianni Lee</h1>
-        <h3>Computer Science & Philosophy</h3>
+        <h3>Computer Science &amp; Philosophy</h3>
     </div>
 
     <div class="container" id="May">

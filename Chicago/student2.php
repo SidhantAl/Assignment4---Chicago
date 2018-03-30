@@ -1,5 +1,3 @@
-<body>
-
     <?php include 'includes/html-top.php';?>
 
 
@@ -16,7 +14,7 @@
         </figure>
 
         <h1>Conley Ernst</h1>
-        <h3>Computer Science & Digital Media Studies</h3>
+        <h3>Computer Science &amp; Digital Media Studies</h3>
 
     </div>
 
