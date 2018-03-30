@@ -105,7 +105,10 @@ The table will contain 6 columns (number, name, major1, major2, class year and g
  - Following the nav bar is the hero class that acts as the main eye-catcher.
  - The main body text of general information and the work and academic experience are put into two separate rows. The latter row contains two columns divided half/half across the page using the bootstrap col-sm-6 properties. 
  
- 
+##Coder
+
+###Validation Errors
+Due to the use of php includes on the site, the main HTML files are missing their doctype declarations, causing the W3C validator to only look for correct markup syntax. This causes an issue with the use of the &copy; symbol used throughout the pages.
 
 
 
