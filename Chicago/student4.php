@@ -1,4 +1,3 @@
-<body>
     <?php include 'includes/html-top.php';?>
 
     <!-- Navbar -->
