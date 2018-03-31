@@ -18,26 +18,27 @@
         </div>
 
 
-        <!-- slideshow -->
-        <script src="javascript/slideshow.js"></script>
-    
-        <div class="container">
+
+       
+<img class="mySlides" src="images/alex.jpg">
+            <p>I’m originally from Iowa and my ethnic heritage consists of quarter Indian, quarter German, and half Russian</p>
+                 <img class="mySlides" src="images/charlie.jpg">
+            <p>I'm from Hangzhou, China and I've had research expreience in Zhejiang University</p>
+            <img class="mySlides" src="images/girl1.jpg">
+            <p>I'm from Boston, MA and I'm looking to be a software engineer</p>
+            <img class="mySlides" src="images/may.jpg">
+            <p>My name is May and am from Bronx, New York and went to St Raymond High School</p>
             
+  
 
-        <!--Code: Javascript Element goes here-->
-        <div>
-            <img class="mySlides" alt="Andrew" src="images/Andrew.jpg">
-            <img class="mySlides" alt="German" src="images/German.jpg">
-            <img class="mySlides" alt="Jovan" src="images/Jovan.jpg">
-        </div>
-        <br><br><br>
-        <!-- Placeholder map -->
-
-        <img alt="maps" src="https://www.maps.com/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/u/s/usa-wall-map_1.jpg">
-
-        <p>There are many amazing students at the University of Rochester who are planning to graduate with two Majors. Here you can find profiles on three such students, each majoring in Computer Science and one other subject.</p>
 
         <div class="form">
+
+
+        <H1>Tell us about yourself</H1>
+        <h3>Thank you for visiting out website, if you would like to be added to our listing of students with double majors please complete the form below!</h3>
+
+
             <form action="welcome.php" method="post">
                 Name:<br>
                 <input type="text" name="name" value="Name"><br><br> Major 1:<br>

@@ -1,8 +1,10 @@
-    <?php include 'includes/html-top.php';?>
+<body>
 
+    <?php include 'includes/html-top.php';?>
 
     <!-- Navbar -->
     <?php include 'includes/menu.php';?>
+
 
     <!--hero class-->
     <div id="hero" class="girl">
@@ -10,21 +12,21 @@
         <!--Please put the profile pic here instead of the uofr logo -->
 
         <figure>
-            <img src="images/uor-logo.png" alt="Conley">
+            <img src="images/uor-logo.png" alt="Bei Lu">
         </figure>
 
-        <h1>Conley Ernst</h1>
-        <h3>Computer Science &amp; Digital Media Studies</h3>
+        <h1>Bei Lu</h1>
+        <h3>Computer Science & Psychology</h3>
 
     </div>
 
 
-    <div class="container" id="Conley">
+    <div class="container" >
 
         <div class="row">
             <section class="general">
                 <h2>General Information</h2>
-                <p>I am a Junior at the University of Rochester double majoring in Computer Science and Digital Media Studies, which provides the unique intersection of engineering and creative arts. Studying to be a software engineer, my academic and professional experience has given me a strong understanding of both the technical and user experience sides of a product.</p>
+                <p>Charlie studies in University of Rochester and is currently taking Advanced Front-End, she is double majoring in psychology and computer science. During her time in Rochester, she passionately devotes to social & developmental psychology and human computer interaction. Her interest in developmental psychology led her to contribute in the university kid's lab, while her knowledge in computer science helps her come up with solutions to meliorate the behavior coding system in psychology researches. She also has research experience in Zhejiang University , where she assisted similar developmental psychology researches on children's temperament. Charlie is enthusiastic about child development and hopes to turn this passion into a career.</p>
             </section>
         </div>
 
@@ -32,20 +34,21 @@
 
             <section class="col-sm-6 col-1 article">
                 <h2>Academic Experience</h2>
-                <p>My academic career has had an interesting change of pace. I came in as a freshman with the intent of majoring in Digital Media Studies and Environmental Science. As a result, I spent my freshman year taking mainly Biology and Chemistry courses. The spring semester of my freshman year I took CSC 161 in order to fulfill a Digital Media Studies Requirement; this was my first introduction programming. Though I went in with the attitude that I was going to hate it, I ended up falling in love with programming and ended up switching my second major to Computer Science. I have since taken fundamental courses like Computation and Formal Systems in addition to courses like Mobile App Development and Web Programming. One of my favorite courses in Computer Science so far has been Video Game Design where I had the opportunity to apply my computer science skills to a new passion. Outside of computer science, I find myself drawn to art courses in order to complete my Digital Media Studies degree. One of my favorite courses has been New Media and Emerging Practices, were I got to continue my exploration of digital art. I have always had a passion for digital art and design, and am always looking for new was to combine this passion with my love for computer science.</p>
+                <p>I am currently double majoring in psychology and computer science, which gives me 2 different sets of problem-solving techniques. My academic background in computational coding inspired me a lot when I do behavior coding and helps me coming up with ways to optimize the coding system. Also, due to the nature of most of the computer science classes, I have a lot of experience working on teams for projects.</p>
             </section>
 
             <section class="col-sm-6 col-2 aside">
                 <h2>Work Experience</h2>
-                <p>During my short career as a computer scientist I have worked at two different startups: Shareaholic and Drift. Both of the Boston based companies develop web applications. Shareaholic main product is a toolbar widget that different websites can install which allow there visitors to share their content on their social media. This one-click model can share to a variety of social media sites, catering to all different parts of the world. My time spent at Shareaholic was as a “Publisher Support Analyst”– which mainly functioned in the customer support role. I had the unique opportunity to solve problems, optimize the support process of the company, communicate directly with clients, as well as get my hands on some data analytics and advertising. Drift is a messaging application for sales and marketing. Instead of the traditional nurturing cycle of leads, Drift uses AI to instant qualifies and routes leads the the appropriate sales representative or automatically communicates with the customer. While at Drift I worked as a “Customer Advocate” working as a bridge between Support and Product teams. I had the opportunity to not only work directly with customers and engineers, but also to tackle independent projects and take ownership of the company’s “triage” process. I hope to work as a software engineer this upcoming summer and continue my professional development.</p>
+                <p>I have been doing volunteer work since I was 13. I had experience of teaching in summer school when I was 16. Also, in high school I started up a project to help out the local orphanage by organizing volunteers visiting the orphanage once a week and plan activities to raise money for the kids. I also had experiences working with families when I was a research assistant. I enjoy working with kids and have the ability to answer parents’ concerns in a professional setting.</p>
             </section>
+
         </div>
+
     </div>
+
     <footer>
         &copy; 2018 Team Chicago
     </footer>
-
-
 
 </body>
 
