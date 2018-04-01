@@ -55,8 +55,6 @@
         </div>
         <!--form class-->
 
-    </div>
-
     <footer>
         &copy; 2018 Team Chicago
     </footer>
