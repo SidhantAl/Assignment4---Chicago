@@ -1,4 +1,3 @@
-<body>
     <?php include 'includes/html-top.php';?>
 
     <!-- Navbar -->
@@ -13,8 +12,8 @@
             <img src="images/uor-logo.png" alt="May">
         </figure>
 
-        <h1>May Shin Lyan</h1>
-        <h3>Computer Science & Business</h3>
+        <h1>Jovan Gianni Lee</h1>
+        <h3>Computer Science &amp; Philosophy</h3>
     </div>
 
     <div class="container" id="May">

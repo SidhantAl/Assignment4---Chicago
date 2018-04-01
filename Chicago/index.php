@@ -5,8 +5,6 @@
     <?php include 'includes/menu.php';?>
 
 
-
-
         <div id="hero" class="home">
 
             <figure>
@@ -18,26 +16,28 @@
         </div>
 
 
-
+        <div>
        
-<img class="mySlides" src="images/alex.jpg">
+            <img class="mySlides" src="images/alex.jpg">
             <p>I’m originally from Iowa and my ethnic heritage consists of quarter Indian, quarter German, and half Russian</p>
-                 <img class="mySlides" src="images/charlie.jpg">
+            
+            <img class="mySlides" src="images/charlie.jpg">
             <p>I'm from Hangzhou, China and I've had research expreience in Zhejiang University</p>
+            
             <img class="mySlides" src="images/girl1.jpg">
             <p>I'm from Boston, MA and I'm looking to be a software engineer</p>
+            
             <img class="mySlides" src="images/may.jpg">
             <p>My name is May and am from Bronx, New York and went to St Raymond High School</p>
             
-  
+        </div>
 
-
+        
         <div class="form">
 
 
         <H1>Tell us about yourself</H1>
         <h3>Thank you for visiting out website, if you would like to be added to our listing of students with double majors please complete the form below!</h3>
-
 
             <form action="welcome.php" method="post">
                 Name:<br>

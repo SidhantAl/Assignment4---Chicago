@@ -1,4 +1,3 @@
-<body>
     <?php include 'includes/html-top.php';?>
 
     <!-- Navbar -->
@@ -14,7 +13,7 @@
         </figure>
 
         <h1>Alexander Punj</h1>
-        <h3>Computer Science and Audio Music Engineering</h3>
+        <h3>Computer Science &amp; Audio Music Engineering</h3>
     </div>
 
     <div class="container" id="Alex">
