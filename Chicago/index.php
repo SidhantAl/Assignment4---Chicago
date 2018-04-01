@@ -1,4 +1,3 @@
-<body>
     <?php include 'includes/html-top.php';?>
 
     <!-- Navbar -->
@@ -18,16 +17,16 @@
 
         <div>
        
-            <img class="mySlides" src="images/alex.jpg">
+            <img class="mySlides" alt="Alex" src="images/alex.jpg">
             <p>I’m originally from Iowa and my ethnic heritage consists of quarter Indian, quarter German, and half Russian</p>
             
-            <img class="mySlides" src="images/charlie.jpg">
+            <img class="mySlides" alt="Charlie" src="images/charlie.jpg">
             <p>I'm from Hangzhou, China and I've had research expreience in Zhejiang University</p>
             
-            <img class="mySlides" src="images/girl1.jpg">
+            <img class="mySlides" alt="girl1" src="images/girl1.jpg">
             <p>I'm from Boston, MA and I'm looking to be a software engineer</p>
             
-            <img class="mySlides" src="images/may.jpg">
+            <img class="mySlides" alt="May" src="images/may.jpg">
             <p>My name is May and am from Bronx, New York and went to St Raymond High School</p>
             
         </div>
