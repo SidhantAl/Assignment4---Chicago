@@ -11,7 +11,7 @@
             </figure>
 
             <h1>University of Rochester</h1>
-            <h3>Students with a Computer Science Double Major</h3>
+            <h2>Students with a Computer Science Double Major</h2>
         </div>
 
         <div class="container">
@@ -59,18 +59,18 @@
         <div class="form">
 
           <H1>Tell us about yourself</H1><br />
-          <h3>Thank you for visiting out website, if you would like to be added to our listing of students with double majors please complete the form below!</h3>
+          <h3>Thank you for visiting our website, if you would like to be added to our listing of students with double majors please complete the form below!</h3>
           <br />
               <form action="welcome.php" method="post">
                   Name:<br>
-                  <input type="text" name="name" id="name" value="name"><br><br> Major 1:<br>
-                  <input type="text" name="major1" id="major1" value="major1"><br><br> Major 2:<br>
-                  <input type="text" name="major2" id="major2" value="major2"><br><br> Class year:<br>
-                  <input type="text" name="class" id="class" value="class"><br><br> Gender:<br>
+                  <input type="text" name="name" id="name" value="Name"><br><br> Major 1:<br>
+                  <input type="text" name="major1" id="major1" value="Major 1"><br><br> Major 2:<br>
+                  <input type="text" name="major2" id="major2" value="Major 2"><br><br> Class year:<br>
+                  <input type="text" name="class" id="class" value="Class year"><br><br> Gender:<br>
                   <input type="radio" name="gender" id="gendermale" value="male"> Male<br>
                   <input type="radio" name="gender" id="genderfemale" value="female"> Female<br>
                   <input type="radio" name="gender" id="genderother" value="other"> Other<br><br>
-                  <input type="submit" onclick="alert('Thank you!')" value="submit">
+                  <input type="submit" onclick="alert('Thank you!')" value="Submit">
             </form>
         </div>
         <!--form class-->
