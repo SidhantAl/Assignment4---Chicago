@@ -122,7 +122,3 @@ Several of the images used across the website (including the banner pic of Rush 
 ### Validation Errors
 
 Code was edited so as to contain no errors in validation.
-
-### Other Concerns
-
-Although attempts to connect to the database and add entries was successful (as is evident in the remote database), along the way the ability to do that was lost. I am working on a final fix to this issue, up to the time of submission. Otherwise, I wanted to document that there has been an issue.
