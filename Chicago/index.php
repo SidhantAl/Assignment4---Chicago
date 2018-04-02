@@ -14,7 +14,6 @@
             <h3>Students with a Computer Science Double Major</h3>
         </div>
 
-
         <div class="container">
 
           <div class="row">
@@ -64,16 +63,14 @@
           <br />
               <form action="welcome.php" method="post">
                   Name:<br>
-                  <input type="text" name="name" value="Name"><br><br> Major 1:<br>
-                  <input type="text" name="major1" value="Major1"><br><br> Major 2:<br>
-                  <input type="text" name="major2" value="Major2"><br><br> Class year:<br>
-                  <input type="text" name="class" value="Class"><br><br> Gender:
-                  <br>
-                  <input type="radio" name="gender" value="Male"> Male<br>
-                  <input type="radio" name="gender" value="Female"> Female<br>
-                  <input type="radio" name="gender" value="Other"> Other<br><br>
-                  <input type="submit" onclick="alert('Thank you!')" value="Submit">
-
+                  <input type="text" name="name" id="name" value="name"><br><br> Major 1:<br>
+                  <input type="text" name="major1" id="major1" value="major1"><br><br> Major 2:<br>
+                  <input type="text" name="major2" id="major2" value="major2"><br><br> Class year:<br>
+                  <input type="text" name="class" id="class" value="class"><br><br> Gender:<br>
+                  <input type="radio" name="gender" id="gender" value="male"> Male<br>
+                  <input type="radio" name="gender" id="gender" value="female"> Female<br>
+                  <input type="radio" name="gender" id="gender" value="other"> Other<br><br>
+                  <input type="submit" onclick="alert('Thank you!')" value="submit">
             </form>
         </div>
         <!--form class-->
