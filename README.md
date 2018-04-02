@@ -19,6 +19,14 @@ Louis Fusilli - Coder
 
 ## IA 
 
+1. Added the 4th person on the page, including creating information and picture 
+
+2. Resized images and created information for the index page 
+
+3. Created information required for the php form 
+
+4. Created the Colophon (as below)
+
 #### Content
 
 ##### Ontology
