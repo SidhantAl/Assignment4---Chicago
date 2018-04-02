@@ -23,7 +23,7 @@ Louis Fusilli - Coder
 
 2. Resized images and created information for the index page 
 
-3. Created information required for the php form 
+3. Created information required for the HTML form 
 
 4. Created the Colophon (as below)
 
