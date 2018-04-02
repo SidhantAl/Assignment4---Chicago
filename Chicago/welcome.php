@@ -1,52 +1,78 @@
-<?php
-	// 1. Create a database connection
-$dbhost = "localhost";
-$dbuser = "urcscon3_chicag";
-$dbpass = "coffee1N/!";
-$dbname = "urcscon3_chicag";
-$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+    <?php include 'includes/html-top.php';?>
 
-$name = Trim(stripcslashes($_POST['name']));
-$major1 = Trim(stripcslashes($_POST['major1']));
-$major2 = Trim(stripcslashes($_POST['major2']));
-$class = Trim(stripcslashes($_POST['class']));
-$gender = Trim(stripcslashes($_POST['gender']));
+    <!-- Navbar -->
+    <?php include 'includes/menu.php';?>
 
 
-$query = "INSERT INTO myTable (name, major1, major2, class, gender) VALUES ('$name','$major1','$major2','$class','$gender')";
-$result = mysqli_query($connection, $query);
+        <div id="hero" class="home">
 
-?>
+            <figure>
+                <img src="images/uor-logo.png" alt="logo">
+            </figure>
 
-<!doctype html>
-<html>
-<head>
-	<meta >
-	<meta charset="UTF-8">
-	<title>Welcome</title>
-</head>
-<body>
+            <h1>University of Rochester</h1>
+            <h3>Students with a Computer Science Double Major</h3>
+        </div>
 
-	<h1>Database Insert</h1>
+        <div class="container">
 
-	<?php echo $name; ?><br><br>
+        <div>
 
-	<?php echo $major1; ?><br><br>
+          <H1>Thank you!</H1><br />
+          <h3>Thank you for visiting our website, you have been added to our listing of students with double majors!</h3>
+          <br />
+            
+          <!--php info here-->
 
-	<?php echo $major2; ?><br><br>
+                    <?php
+            // 1. Create a database connection
+          $dbhost = "localhost";
+          $dbuser = "urcscon3_chicag";
+          $dbpass = "coffee1N/!";
+          $dbname = "urcscon3_chicag";
+          $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-	<?php echo $class; ?><br><br>
+          $name = Trim(stripcslashes($_POST['name']));
+          $major1 = Trim(stripcslashes($_POST['major1']));
+          $major2 = Trim(stripcslashes($_POST['major2']));
+          $class = Trim(stripcslashes($_POST['class']));
+          $gender = Trim(stripcslashes($_POST['gender']));
 
-	<?php echo $gender; ?>
+
+          $query = "INSERT INTO myTable (name, major1, major2, class, gender) VALUES ('$name','$major1','$major2','$class','$gender')";
+          $result = mysqli_query($connection, $query);
+
+          ?>
+
+            <h3>Your details:</h3>
+              <p>
+              Name: <?php echo $name; ?><br>
+
+              Major 1: <?php echo $major1; ?><br>
+
+              Major 2: <?php echo $major2; ?><br>
+
+              Class Year: <?php echo $class; ?><br>
+
+              Gender: <?php echo $gender; ?>
+              </p>
+
+          <?php
+            // 4. Step 4 is unnecessary here because we didn't 
+            //    get data that needs to be released
+            //mysqli_free_result($result);
+
+            // 5. Close database connection
+          mysqli_close($connection);
+          ?>
+          <!--php-->
+
+        </div>
+
+    <footer>
+        &copy; 2018 Team Chicago
+    </footer>
 
 </body>
+
 </html>
-
-<?php
-	// 4. Step 4 is unnecessary here because we didn't 
-	//	  get data that needs to be released
-	//mysqli_free_result($result);
-
-	// 5. Close database connection
-mysqli_close($connection);
-?>
