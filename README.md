@@ -121,4 +121,4 @@ Several of the images used across the website (including the banner pic of Rush 
 
 ### Validation Errors
 
-Code was edited so as to contain no errors in validation.
+Code was edited so as to contain no errors in validation. There is, however, a warning relating to the index.php page: the section tags used for the designer's col-sm-6 trick lack headings. Although this does show up as a warning in the validator, it is not a requirement for the HTML code and I decided to leave it as-is.
