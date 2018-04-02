@@ -2,7 +2,7 @@
 
 Github: https://github.com/SidhantAl/Assignment4-Chicago/
 
-Website: http://www.urcsc174.org/assignment04/Chicago/
+Website: http://www.urcsc174.org/assignment04/Assignment4-Chicago/Chicago/index.php
 
 Database: urcscon3_chicag
 
