@@ -35,9 +35,9 @@ All 4 students are attending the University of Rochester, all are dual majors an
 
 ##### Difference
 
-One student is a girl, her majors are CS and Psychology  
+One student is a guy, as opposed to the other 3 girls
 
-The student that is different will have a different color scheme (lighter) on the page, with more emphasis on the differences. The tab for this student will also be colored differently to strike a difference between the other students.
+The student who is of different gender will have a different color scheme on the page, with more emphasis on the differences. The tab for this student will also be colored differently to strike a difference between the other students.
 
 ##### Choreography
 
