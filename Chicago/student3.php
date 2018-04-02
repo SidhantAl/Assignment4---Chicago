@@ -10,7 +10,7 @@
         <!--Please put the profile pic here instead of the uofr logo -->
 
         <figure>
-            <img src="images/uor-logo.png" alt="Conley">
+            <img src="images/girl1.jpg" alt="Conley" class="ProfilePic">
         </figure>
 
         <h1>Conley Ernst</h1>

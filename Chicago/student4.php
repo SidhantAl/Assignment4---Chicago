@@ -10,7 +10,7 @@
         <!--Please put the profile pic here instead of the uofr logo -->
 
         <figure>
-            <img src="images/uor-logo.png" alt="May">
+            <img src="images/may.jpg" alt="May" class="ProfilePic">
         </figure>
 
         <h1>May Shin Lyan</h1>

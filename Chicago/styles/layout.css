@@ -38,12 +38,17 @@
    Middle
    ========================================================================== */
 
-.container {
-    padding-top: 5%;
+
+.container, .form {
+    padding-top: 3%;
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
 
+}
+
+section{
+  margin-bottom: 10px;
 }
 
 

@@ -10,7 +10,7 @@
         <!--Please put the profile pic here instead of the uofr logo -->
 
         <figure>
-            <img src="images/uor-logo.png" alt="Bei Lu">
+            <img src="images/charlie.jpg" alt="Charlie" class="ProfilePic">
         </figure>
 
         <h1>Bei Lu</h1>

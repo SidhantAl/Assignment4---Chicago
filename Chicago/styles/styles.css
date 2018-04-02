@@ -6,7 +6,7 @@
     border-bottom-width: 1px !important;
     border-bottom-color: rgba(0, 0, 0, .125) !important;
     padding: 0 !important;
-  
+
 }
 
 #myNavbar a {
@@ -48,7 +48,7 @@
     display: inline-block;
     box-sizing: border-box;
     padding: .5rem 1rem;
-    margin-right: 23.3em;
+    margin-right: 22.6em;
     margin-left: 0;
     margin-bottom: 0;
     margin-top: 0;
@@ -94,10 +94,34 @@ p {
 
 
 /***** figures ******/
+img{
+  width: 150px;
+  height: 150px;
+  margin-top: 2em;
+}
 
-img {
-    width: 150px;
-    height: auto;
+.ProfilePic {
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.flash {
+    width: auto;
+    height: 300px;
+    padding: 1em;
+    display: block;
+    margin: 0 auto;
+}
+
+.flash:hover {
+ opacity: 1;
+ -webkit-animation: flash 2s;
+ animation: flash 2s;
+}
+
+@keyframes flash {
+ 0% { opacity: .3; }
+ 100% { opacity: 1; }
 }
 
 
