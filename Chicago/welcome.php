@@ -16,10 +16,8 @@
 
         <div class="container">
 
-        <div>
-
-          <H1>Thank you!</H1><br />
-          <h3>Thank you for visiting our website, you have been added to our listing of students with double majors!</h3>
+          <h1>Thank you!</h1><br />
+          <h2>Thank you for visiting our website, you have been added to our listing of students with double majors!</h2>
           <br />
             
           <!--php info here-->
