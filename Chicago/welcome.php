@@ -11,7 +11,7 @@
             </figure>
 
             <h1>University of Rochester</h1>
-            <h3>Students with a Computer Science Double Major</h3>
+            <h2>Students with a Computer Science Double Major</h2>
         </div>
 
         <div class="container">

@@ -58,8 +58,8 @@
 <hr />
         <div class="form">
 
-          <H1>Tell us about yourself</H1><br />
-          <h3>Thank you for visiting our website, if you would like to be added to our listing of students with double majors please complete the form below!</h3>
+          <h1>Tell us about yourself</h1><br />
+          <h2>Thank you for visiting our website, if you would like to be added to our listing of students with double majors please complete the form below!</h2>
           <br />
               <form action="welcome.php" method="post">
                   Name:<br>
