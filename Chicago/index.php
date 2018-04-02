@@ -67,9 +67,9 @@
                   <input type="text" name="major1" id="major1" value="major1"><br><br> Major 2:<br>
                   <input type="text" name="major2" id="major2" value="major2"><br><br> Class year:<br>
                   <input type="text" name="class" id="class" value="class"><br><br> Gender:<br>
-                  <input type="radio" name="gender" id="gender" value="male"> Male<br>
-                  <input type="radio" name="gender" id="gender" value="female"> Female<br>
-                  <input type="radio" name="gender" id="gender" value="other"> Other<br><br>
+                  <input type="radio" name="gender" id="gendermale" value="male"> Male<br>
+                  <input type="radio" name="gender" id="genderfemale" value="female"> Female<br>
+                  <input type="radio" name="gender" id="genderother" value="other"> Other<br><br>
                   <input type="submit" onclick="alert('Thank you!')" value="submit">
             </form>
         </div>
