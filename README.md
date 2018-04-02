@@ -107,8 +107,17 @@ The table will contain 6 columns (number, name, major1, major2, class year and g
  
 ## Coder
 
+### Image Optimization
+
+Several of the images used across the website (including the banner pic of Rush Rhees) were resampled to make them lightweight and fast loading.
+
 ### Validation Errors
-Due to the use of php includes on the site, the main HTML files are missing their doctype declarations, causing the W3C validator to only look for correct markup syntax. This causes an issue with the use of the &copy; symbol used throughout the pages.
 
+Code was edited so as to contain no errors in validation.
 
+### Other Concerns
+
+Although attempts to connect to the database and add entries was successful (as is evident in the remote database), along the way the ability to do that was lost. I am working on a final fix to this issue, up to the time of submission. Otherwise, I wanted to document that there has been an issue.  
+
+In several instances, the javascript slideshow was showing all of the students' images and descriptions at once instead of scrolling through them.
 
